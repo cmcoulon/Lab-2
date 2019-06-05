@@ -1,0 +1,24 @@
+body {
+  background-color: lightblue;
+}
+
+#titleLogo {
+  border: yellow 10px solid;
+  border-radius: 20px;
+}
+
+#biography {
+  background-color: rgb(229, 162, 238);
+}
+
+#education {
+  background-color: rgb(219, 116, 233);
+}
+
+#work {
+  background-color: rgb(215, 80, 233);
+}
+
+#goals {
+  background-color: rgb(209, 41, 231)
+}
