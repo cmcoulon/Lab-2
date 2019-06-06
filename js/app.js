@@ -107,7 +107,7 @@ while (residencyattempts < 6) {
   }
   alert('Sorry, try again!');
 }
-if (residencyattempts > 5) {
+if (residencyattempts > 6) {
   alert('Oh no! Looks like you didn\'t get it.  I have lived in Washington, California, Virginia, and South Carolina.'); //This is the message that will display if the user fails all 6 attempts.
 }
 
