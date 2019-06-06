@@ -2,6 +2,10 @@ body {
   background-color: lightblue;
 }
 
+body>ul { /*This element is used to remove bullet points for the major sections. */
+  list-style: none;
+}
+
 #titleLogo {
   border: yellow 10px solid;
   border-radius: 20px;
@@ -22,3 +26,9 @@ body {
 #goals {
   background-color: rgb(209, 41, 231)
 }
+
+#travelDestinations {
+  background-color: rgb(166, 20, 185)
+}
+
+/* list-style: none; */
