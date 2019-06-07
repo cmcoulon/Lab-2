@@ -28,12 +28,12 @@ var questionOne = function() {
 
 var questionTwo = function() {
   //Query the user: Am I from the Northwest?
-  var originLocation = prompt('Am I from the Northwest? ("yes" or "no")').toLowerCase(); //Switched to double quotation marks here just to try a different way of including quotes without having to insert '\' multiple times.
+  var originLocation = prompt('Am I from the East Coast? ("yes" or "no")').toLowerCase(); //Switched to double quotation marks here just to try a different way of including quotes without having to insert '\' multiple times.
 
-  if (originLocation === answers[0] || originLocation === answers[1]) {
+  if (originLocation === answers[2] || originLocation === answers[3]) {
     alert('That is correct! I am from the Northwest');
     correctAnswers++;
-  } else if (originLocation === answers[2] || originLocation === answers[3]) {
+  } else if (originLocation === answers[0] || originLocation === answers[1]) {
     alert('Better luck next time!');
   } else {
     alert('You didn\'t even try!');
@@ -58,12 +58,12 @@ var questionThree = function() {
 
 var questionFour = function() {
   //Query the user: Have I lived abroad?
-  var residence = prompt('Have I lived abroad? (\'yes\' or \'no\')').toLowerCase();
+  var residence = prompt('Have I always lived in the US? (\'yes\' or \'no\')').toLowerCase();
 
-  if (residence === answers[0] || residence === answers[1]) {
+  if (residence === answers[2] || residence === answers[3]) {
     alert('Yes that is correct! I have lived in ');
     correctAnswers++;
-  } else if (residence === answers[2] || residence === answers[3]) {
+  } else if (residence === answers[0] || residence === answers[1]) {
     alert('Nice try, but no cigar!');
   } else {
     alert('You didn\'t even try!');
