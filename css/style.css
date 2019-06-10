@@ -1,32 +1,37 @@
 body {
-  background-color: lightblue;
+  background-color:darkolivegreen;
+  font-family: monospace, 'Times New Roman', Times, serif;
 }
 
 body>ul { /*This element is used to remove bullet points for the major sections. */
   list-style: none;
 }
 
+.lists {
+  float: left;
+  width: 220px;
+  margin: 10px; 
+  padding: 10px; 
+  background-color: rgb(209, 41, 231)
+}
+
+.listHeader {
+  text-align: center;
+}
+
 #titleLogo {
-  border: yellow 10px solid;
+  border: darkred 10px solid;
   border-radius: 20px;
+  text-align: center;
 }
 
 #biography {
   background-color: rgb(229, 162, 238);
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 #education {
   background-color: rgb(219, 116, 233);
-}
-
-#work {
-  background-color: rgb(215, 80, 233);
-}
-
-#goals {
-  background-color: rgb(209, 41, 231)
-}
-
-#travelDestinations {
-  background-color: rgb(166, 20, 185)
+  padding: 10px;
 }

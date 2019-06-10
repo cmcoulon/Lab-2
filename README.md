@@ -8,3 +8,7 @@ Jun. 6th, 2019
 - Added parseInt function on number guessing. Modified number guessing.
 - Placed all elements into lists in index.html file and edited to remove bullet points for the major list items.
 - Addition of a 'Desired Destinations' section.
+
+June 8th, 2019
+--------------
+- Updarted CSS stylesheet, creating colums with float function, changed font, adjusted both margins and padding and made minor adjustments to color.
